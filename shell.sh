@@ -1,7 +1,7 @@
 
 
-echo "logging to azure portal.."
-az login
+# echo "logging to azure portal.."
+# az login
 
 echo "creating resource group"
 az group create --name $1 --location centralus
